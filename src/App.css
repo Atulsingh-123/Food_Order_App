@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pl-7 {
+  padding-left: 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.pl-8 {
+  font-size: 18px;
+  color: black;
+}
+
+.addtocart_style {
+  display: flex;
+  padding: 18px;
+  justify-content: center;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 5px;
+  font-size: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.addtocart_style p {
+  margin-top: 25px;
+  font-size: 22;
+
+}
+
+.front__img {
+  height: auto;
+  width: 90%;
+  margin-top: 15px;
+}
+
+/* @media (min-width: 600px) {
+  .front__img {
+    height: auto;
+  }
+} */
+
+
+
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translateX(-50%);
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay-button:hover {
+  background-color: orangered;
+}
+
+
+
+
+
+
+.addtocart_style1 {
+  width: 24rem;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addtocart_style1 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.addtocart_style1 th,
+.addtocart_style1 td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.addtocart_style1 th {
+  font-weight: bold;
+}
+
+.addtocart_style1 img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.addtocart_style1 p {
+  margin: 5px 0;
+}
+
+.addtocart_style1 tbody tr:last-child td {
+  border-bottom: none;
+}
